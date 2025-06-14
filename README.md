@@ -11,6 +11,12 @@ Lab for studying software design and architecture techniques, with a focus on pr
     - A toy compiler
 4. **Compare**: e.g., Kafka vs. RabbitMQ, Redis vs. Memcached.
 
+## Web Note Taking App
+
+- [ ]  https://www.blocknotejs.org/
+- [ ]  https://github.com/yjs
+- [ ]  https://github.com/suitenumerique/docs/tree/main?tab=readme-ov-file
+
 ## Case Studies
 
 | **Category** | **System** | **What to Learn / Study Focus** | **Key Insight / Concept / Lesson** |
@@ -36,3 +42,7 @@ Lab for studying software design and architecture techniques, with a focus on pr
 ## References
 
 - [System](https://righteous-guardian-68f.notion.site/System-180c0f5171ec803391a6cb98cc236081?source=copy_link)
+- [Netflix’s Distributed Counter Abstraction](https://netflixtechblog.com/netflixs-distributed-counter-abstraction-8d0c45eb66b2)
+- [Shopify Tech Stack](https://blog.bytebytego.com/p/shopify-tech-stack?publication_id=817132&post_id=165590160&isFreemail=true&r=ewe3h&triedRedirect=true)
+- [How Lyft Uses ML to Make 100 Million Predictions A Day](https://blog.bytebytego.com/p/how-lyft-uses-ml-to-make-100-million?publication_id=817132&post_id=165365614&isFreemail=true&r=ewe3h&triedRedirect=true)
+- 
