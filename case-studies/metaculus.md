@@ -2,6 +2,10 @@
 
 > Metaculus is an online forecasting platform that leverages collective intelligence by aggregating predictions from a diverse community to generate accurate forecasts on science, technology, geopolitics, and other complex questions.
 
+> **Metaculus** is a collaborative forecasting platform focused on science, technology, policy, and global risks. It aggregates individual probability forecasts to produce a consensus prediction and a community distribution. It’s designed to harness collective intelligence, not financial incentives. Metaculus is not a prediction market in the traditional financial sense. It resembles a scoring-based collective cognition system, not a financial market-based system.
+
+> A **prediction market** involves buying and selling securities or contracts tied to the outcome of future events. Prices reflect collective beliefs about the probability of those events. Examples: Kalshi, PredictIt, Manifold Markets (play-money), Augur (crypto).
+
 ## Tech Stack
 
 ### Tool
