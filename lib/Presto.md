@@ -1,7 +1,0 @@
-> …
-> 
-
-## References
-
-- https://prestodb.io/
-- ….

@@ -1,6 +1,0 @@
-> …
-> 
-
-## References
-
-- https://aider.chat/
