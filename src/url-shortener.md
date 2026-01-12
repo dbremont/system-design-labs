@@ -29,7 +29,20 @@ Add an evaluation clumn, and a properties column
 
 ## Evaluation
 
-- Criteria Space
+| Dimension                         | Description                                                                                                 | Metric(s)                                               |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| Latency                           | Time to resolve a short URL under typical and peak load, including DNS, application, and datastore latency. | p50 / p95 / p99 response time, cache hit latency        |
+| Throughput                        | Maximum sustainable resolution and creation requests per second.                                            | Requests per second (RPS), saturation threshold         |
+| Scalability                       | Ability to scale horizontally without re-encoding or breaking existing links.                               | Scaling efficiency, rebalancing cost, shard growth rate |
+| Durability                        | Probability that a short URL remains resolvable over long time horizons (years or decades).                 | Data loss rate, backup success rate, RTO/RPO            |
+| Identifier Stability              | Resistance to reuse, reassignment, or collision over time.                                                  | Collision probability, ID reuse events                  |
+| Predictability and Security       | Susceptibility to enumeration, scraping, or targeted abuse.                                                 | Identifier entropy, enumeration success rate            |
+| Operational Complexity            | Cost and difficulty of deployment, monitoring, and maintenance.                                             | Component count, operational incidents, on-call load    |
+| Storage Efficiency                | Memory and disk cost per stored URL, including metadata.                                                    | Bytes per URL, index overhead                           |
+| Abuse Resistance                  | Effectiveness in preventing spam, phishing, and malware distribution.                                       | Abuse reports, takedown latency                         |
+| Observability                     | Availability of logs, metrics, and traces for operational and analytical purposes.                          | Metrics coverage, trace completeness                    |
+| Semantic Correctness              | Proper use of HTTP semantics (redirect codes, caching behavior).                                            | Redirect code accuracy, cache header correctness        |
+| Governance and Policy Flexibility | Ability to enforce ownership, takedowns, expiration, and compliance requirements.                           | Policy coverage, enforcement latency                    |
 
 ## QA
 
