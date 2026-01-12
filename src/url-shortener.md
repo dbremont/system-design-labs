@@ -35,6 +35,8 @@ Add an evaluation clumn, and a properties column
 
 ### How can the original URL be recovered from a shortened URL?
 
+> In general, the original URL cannot be recovered algorithmically from the shortened URL alone. A URL shortener is not a reversible encoding scheme but a lookup-based indirection mechanism.
+
 ## References
 
 - [URL Shortening](https://en.wikipedia.org/wiki/URL_shortening)
